@@ -1,116 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body{
-    background-image: url("bg_image.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+body {
+    background-image: url('OIP.jpg');
     background-size: cover;
-    border: 2px solid rgb(2, 65, 121);
-	background-color: #CCCCCC;
-	padding: 20px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 
+.main-header {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
     text-align: center;
 }
 
-h1{
-    font-size: 30px;
-    font-weight: bolder;
-
-	color: rgb(255, 255, 255);
-	font-family: Times New Roman;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img{
-	width: 150px;
-	height: 150px;
-
-    border-radius: 75px;
+.navbar-brand {
+    flex: 1;
 }
 
-h2 a{
-	text-decoration: none;
-	font-family: Calibri;
-
-	color: #FFFFFF;
+.logo {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
 }
 
-h2 a:hover{
-	border: 2px solid rgb(252, 252, 252);
-	background-color: rgb(2, 65, 121);
-	border-radius: 8px;
-
-    color: rgb(250, 250, 250);
+.navbar-nav {
+    flex: 2;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.headings {
-	background-color:rgb(2, 65, 121);
-	padding: 5px;
-	font-style: italic;
-	color: rgb(255, 254, 254);
-    border-radius: 3px;
+.navbar-nav li {
+    margin-left: 20px;
 }
 
-p.description {
-	text-align: center;
-	color: rgb(255, 255, 255);
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.educ{
-    color: white;
-	margin: 0;
-	padding: 0;
-}
-
-table#educ-bg {
-	color: rgb(255, 255, 255);
-	border-collapse: collapse;
-	width: 100%;
-	font-family: Calibri;
-}
-
-table#educ-bg th, table#educ-bg td {
-    padding: 8px;
-    text-align: left;
-    border: 1px solid #000000;
-}
-
-table#educ-bg thead th {
-    padding: 12px;
+.welcome-section {
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 50px 0;
     text-align: center;
-    background-color: rgb(2, 65, 121);
-    font-weight: bold;
+}
+
+.welcome-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.welcome-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
     color: white;
-    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-p {
-	font-family: Times New Roman;
-	color: rgb(255, 255, 255);
+button[type="submit"]:hover {
+    background-color: #45a049;
 }
-
-hr {
-	width: 100%;
-	height: 1px;
-	background-color: rgb(255, 255, 255);
-}
-
-h3, h4, ul, ol {
-	text-align: left;
-	font-family: Calibri;
-	color: rgb(255, 255, 255);
-}
-
-table{
-	width: 100%;
-	border-collapse: collapse;
-	font-family: Calibri;
-}
-
-td th {
-    padding: 8px;
-}
-
-
-
-
-
-
